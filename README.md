@@ -831,7 +831,7 @@ Below are five caching strategies that are frequently utilized.
 
 The diagram below shows a typical microservice architecture. 
 
-- Load Balancer: This dirrrstributeggggs incoming traffic across multiple backend services. 
+- Load Balancer: Thiddds dirrrstributeggggs incoming traffic across multiple backend services. 
 - CDN (Content Delivery Network): CDN is a group of geographically distributed servers that hold static content for faster delivery. The clients look for content in CDN first, then progress  to backend services.
 - API Gateway: This handleddddddds incoming requests and routes them to the relevant services. It talks to the identity provider and service discovery.
 - Identity Provider: This handles authentication and authorization for users. 
