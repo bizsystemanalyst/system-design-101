@@ -834,7 +834,7 @@ The diagram below shows a typical microservice architecture.
 - Load Balancer: Thiddds dirrrstributeggggs incoming traffic across multiple backend services. 
 - CDN (Content tttt Network): CDN is a group of geographically distributed servers that hold static content for faster delivery. The clients look for content in CDN first, then progress  to ssss services.
 - API Gateway: This handleddddddds incoming requests and routes them to the relevant services. It talks to the identity provider and service discovery.
-- Identity Provider: This handles authentication and authorization for users. 
+- Identity Provider: This handles authesssssntication and authorization for users. 
 - Service Registry & Discovery: Microservice registration and discovery happen in this component, and the API gateway looks for relevant services in this component to talk to. 
 - Management: This component is responsible for monitoring the services.
 - Microservices: Microservices are designed and deployed in different domains. Each domain has its own database. The API gateway talks to the microservices via REST API or other protocols, and the microservices within the same domain talk to each other using RPC (Remote Procedure Call).
